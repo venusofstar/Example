@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kumusta IT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(270deg, #001f3f, #0074D9, #00cfff, #6a00ff);
+      background-size: 800% 800%;
+      animation: bgMove 10s ease infinite;
+      font-family: Arial, sans-serif;
+    }
+
+    @keyframes bgMove {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    .text {
+      color: white;
+      font-size: 3em;
+      font-weight: bold;
+      text-align: center;
+      animation: blink 1.2s infinite;
+    }
+
+    @keyframes blink {
+      0%, 100% {opacity: 1;}
+      50% {opacity: 0.3;}
+    }
+  </style>
+</head>
+
+<body>
+  <div class="text">KUMUSTA ANG PAGIGING IT</div>
+</body>
+</html>
